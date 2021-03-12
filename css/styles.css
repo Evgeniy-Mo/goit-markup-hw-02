@@ -1,0 +1,168 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* Шапка*/
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.second-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: black;
+}
+.nav-text .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-text .current {
+  color: var(--accent-color);
+}
+.nav-text .link:hover,
+:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+.mail {
+  color: var(--primary-text-color);
+}
+.tel {
+  color: var(--primary-text-color);
+}
+.mail:focus,
+.mail:hover,
+.tel:focus,
+.tel:hover {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+/*section hero*/
+.hero {
+  background-color: #2f303a;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.34;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+.button-hero {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  cursor: pointer;
+}
+h1,
+h2,
+h3 {
+  color: black;
+}
+/* Портфолио*/
+.portfolio-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-button:focus,
+.portfolio-button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.product-description {
+  font-size: 16px;
+  line-height: 1.89;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Kоманда */
+.position {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.name {
+  font-size: 16px;
+  line-height: 1.2;
+}
+/*Подвал*/
+footer {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+.second-logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+.street {
+  font-style: normal;
+}
+
+.mail-footer,
+.tel-footer {
+  color: var(--primary-text-color);
+}
+.mail-footer:focus,
+.mail-footer:hover,
+.tel-footer:hover,
+.tel-footer:focus {
+  color: var(--accent-color);
+}
